@@ -1,25 +1,24 @@
 {
-  "version": "1.2.0",
-  "name": "gatsby-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "version": "0.0.1",
+  "name": "stough-codes-test",
+  "description": "Initial Gatsby implementation of the Stough.codes",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "npm run clean && gatsby build && cp CNAME ./public",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
-    "copy:files": "find ./pages -maxdepth 1 -type f -regextype posix-extended -regex '.+\\.(pdf|txt|png|jpg|jpeg|gif)$' -exec cp -v {} ./public ';'",
-    "copy": "npm run copy:files",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "deploy": "npm run build && gh-pages -d public -b master"
   },
   "keywords": [
+    "stough",
     "gatsby",
     "blog",
     "react"
   ],
-  "author": "Alexander Shelepenok <a.shelepenok@gmail.com>",
+  "author": "D. K. Stough <Daniel.Stough@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
