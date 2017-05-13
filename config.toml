@@ -1,13 +1,11 @@
-siteTitle = "Blog by Dan Stough"
-siteDescr = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+siteTitle = "Stough.Codes"
+siteDescr = "Electrical Engineer. Software Developer. Hopeless Technologist. Professional Human."
 siteAuthor = "Dan Stough"
 
-siteTelegramUrl = "#"
-siteTwitterUrl = "#"
-siteGithubUrl = "#"
-siteEmailUrl = "#"
-siteRssUrl = "#"
-siteVkUrl = "#"
+siteGithubUrl = "https://github.com/DanStough"
+siteLinkedinUrl = "https://www.linkedin.com/in/danstough/"
+siteEmailUrl = "Dan@Stough.codes"
+
 
 googleAnalyticsId = ""
 
