@@ -25,6 +25,11 @@ module.exports = React.createClass({
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon2-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon2-16x16.png" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="theme-color" content="#ffffff" />
           { title.toComponent() }
           { font }
           { css }
