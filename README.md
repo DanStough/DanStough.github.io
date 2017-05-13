@@ -20,6 +20,15 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 [Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
+## Tools Used
+
+Lumen
+Gatsby
+realfavicongenerator.net
+inkscape
+Font Squirrel
+
+
 ## License
 The MIT License (MIT)
 
